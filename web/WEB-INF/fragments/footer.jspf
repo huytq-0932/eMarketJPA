@@ -1,0 +1,35 @@
+<footer class="mt-5">
+    <div id="footer">
+        <div class="one-fourth">
+            <h3>Customers' Services</h3>
+            <ul class="footer_links">
+                <li><a href="contact.jsp">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="one-fourth">
+            <h3>Administrator</h3>
+            <ul class="footer_links">
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+
+        <div class="one-fourth">
+            <h3>Information</h3>
+            For online shopping Apple's products
+            <div id="social_icons"> Theme by <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a><br>
+                Photos <a href="http://dieterschneider.net">Dieter Schneider</a></div>
+        </div>
+
+        <div class="one-fourth last">
+            <h3>Socialize</h3>
+            <img src="img/icon_fb.png" alt="">
+            <img src="img/icon_twitter.png" alt="">
+            <img src="img/icon_in.png" alt="">
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</footer>
+</div>
+</body>
+</html>

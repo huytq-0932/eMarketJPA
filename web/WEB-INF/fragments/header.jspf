@@ -1,0 +1,46 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>$Title$</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="menu/css/simple_menu.css">
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="boxes/css/style6.css">
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"
+          media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="wrapper">
+    <header class="">
+        <div class="header">
+            <div id="site-title">
+                <img src="img/logo.png" alt=""><br>
+            </div>
+            <ol id="menu">
+                <li class="active_menu_item"><a href="http://localhost:8080/lab893_war_exploded/ControllerServlet"
+                                                style="color:#FFF">Home</a></li>
+                <li><a href="#">Category</a>
+                    <ol>
+                        <li><a href="#">Mac</a>
+                            <ol>
+                                <li><a href="#">iMac</a></li>
+                                <li><a href="#">Mac Pro</a></li>
+                                <li><a href="#">MacBook Air</a></li>
+                                <li><a href="#">MacBook Pro</a></li>
+                            </ol>
+                        </li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+    </header>

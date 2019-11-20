@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="escliplink2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/escliplink2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="escliplink2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="escliplink2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="file-copy" path="D:/ProgramFiles/JavaLibrary/EsclipseLink/eclipselink-2.7.5.jar" />
+          <element id="library" level="project" name="javax.servlet:jstl:1.2" />
+          <element id="file-copy" path="D:/ProgramFiles/JavaLibrary/mysql-connector/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48-bin.jar" />
+          <element id="file-copy" path="D:/ProgramFiles/JavaLibrary/mysql-connector/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

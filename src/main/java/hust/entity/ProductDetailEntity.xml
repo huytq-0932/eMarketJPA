@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.java.hust.entity.ProductDetailEntity">
+        <table name="product_detail" schema="emarket" catalog=""/>
+        <attributes>
+            <id name="productId">
+                <column name="product_id" precision="11"/>
+            </id>
+            <basic name="information">
+                <column name="information" nullable="false"/>
+            </basic>
+            <basic name="image1">
+                <column name="image1" nullable="false" length="45"/>
+            </basic>
+            <basic name="image2">
+                <column name="image2" nullable="false" length="45"/>
+            </basic>
+            <basic name="image3">
+                <column name="image3" nullable="false" length="45"/>
+            </basic>
+            <basic name="image4">
+                <column name="image4" nullable="false" length="45"/>
+            </basic>
+            <basic name="image5">
+                <column name="image5" nullable="false" length="45"/>
+            </basic>
+            <basic name="accessories">
+                <column name="accessories" nullable="false"/>
+            </basic>
+            <basic name="guaranty">
+                <column name="guaranty" nullable="false"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="eMarketPU">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <mapping-file>main/java/hust/entity/CategoryEntity.xml</mapping-file>
+        <mapping-file>main/java/hust/entity/ProductEntity.xml</mapping-file>
+        <mapping-file>main/java/hust/entity/ProductDetailEntity.xml</mapping-file>
+        <class>main.java.hust.entity.CategoryEntity</class>
+        <class>main.java.hust.entity.ProductEntity</class>
+        <class>main.java.hust.entity.ProductDetailEntity</class>
+        <properties>
+            <property name="eclipselink.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/emarket?useSSL=false&amp;autoReconnect=true"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.user" value="root"/>
+            <property name="eclipselink.jdbc.password" value="123456"/>
+        </properties>
+    </persistence-unit>
+</persistence>
