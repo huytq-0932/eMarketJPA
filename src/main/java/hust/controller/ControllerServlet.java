@@ -3,10 +3,7 @@ package main.java.hust.controller;
 import main.java.hust.entity.ProductEntity;
 import main.java.hust.session.bean.ProductSessionBean;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.servlet.ServletConfig;
+import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,18 +13,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@WebServlet(name = "ControllerServlet", loadOnStartup = 1, urlPatterns = {"/products"})
+@WebServlet(name = "ControllerServlet", urlPatterns = {"/products"})
 public class ControllerServlet extends HttpServlet {
 
+    @EJB
     private ProductSessionBean productSessionBean;
-
-    @Override
-    public void init(ServletConfig config) throws ServletException {
-        super.init(config);
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("eMarketPU");
-        EntityManager entityManager = factory.createEntityManager();
-        productSessionBean = new ProductSessionBean(entityManager);
-    }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

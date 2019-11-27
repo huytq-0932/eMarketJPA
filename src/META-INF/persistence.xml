@@ -3,6 +3,7 @@
 
     <persistence-unit name="eMarketPU">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jta-data-source>jdbc/eMarket</jta-data-source>
         <mapping-file>main/java/hust/entity/CategoryEntity.xml</mapping-file>
         <mapping-file>main/java/hust/entity/ProductEntity.xml</mapping-file>
         <mapping-file>main/java/hust/entity/ProductDetailEntity.xml</mapping-file>

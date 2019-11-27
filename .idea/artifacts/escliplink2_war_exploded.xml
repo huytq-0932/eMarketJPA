@@ -13,6 +13,7 @@
           <element id="library" level="project" name="javax.servlet:jstl:1.2" />
           <element id="file-copy" path="D:/ProgramFiles/JavaLibrary/mysql-connector/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48-bin.jar" />
           <element id="file-copy" path="D:/ProgramFiles/JavaLibrary/mysql-connector/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
         </element>
       </element>
     </root>

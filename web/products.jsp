@@ -12,7 +12,7 @@
     <title>Products</title>
 </head>
 <body>
-<div id="container">
+<div id="container" class="mb-5">
     <div id="prod_wrapper">
         <div id="" class="mb-3">
             <%--@elvariable id="newProducts" type="java.util.List"--%>
@@ -53,30 +53,34 @@
             </c:forEach>
         </div>
         <c:set var="countProduct" scope="request" value="${countProduct + 1}"/>
-
+        <div class="mt-5">
+            <div class="one-fourth">
+                <div class="heading_bg">
+                    <h2>Mac</h2>
+                </div>
+                <img src="img/demo/4.jpg" width="100" height="100" alt=""/>
+            </div>
+            <div class="one-fourth">
+                <div class="heading_bg">
+                    <h2>iPac</h2>
+                </div>
+                <img src="img/demo/3.jpg" width="100" height="100"/>
+            </div>
+            <div class="one-fourth">
+                <div class="heading_bg">
+                    <h2>iPhone</h2>
+                </div>
+                <img src="img/demo/1.jpg" width="100" height="100"/>
+            </div>
+            <div class="one-fourth">
+                <div class="heading_bg">
+                    <h2>Accessories</h2>
+                </div>
+                <img src="img/demo/1.jpg" width="100" height="100"/>
+            </div>
+        </div>
     </div>
 </div>
-
-<%--    <div>--%>
-<%--        <div class="one-fourth">--%>
-<%--            <div class="heading_bg">--%>
-<%--                <h2>Mac</h2>--%>
-<%--            </div>--%>
-<%--            <img src="img/demo/4.jpg" width="100" height="100" alt=""/>--%>
-<%--        </div>--%>
-<%--        <div class="one-fourth">--%>
-<%--            <div class="heading_bg">--%>
-<%--                <h2>Mac</h2>--%>
-<%--            </div>--%>
-<%--            <img src="img/demo/3.jpg" width="100" height="100"/>--%>
-<%--        </div>--%>
-<%--        <div class="one-fourth">--%>
-<%--            <div class="heading_bg">--%>
-<%--                <h2>Mac</h2>--%>
-<%--            </div>--%>
-<%--            <img src="img/demo/1.jpg" width="100" height="100"/>--%>
-<%--        </div>--%>
-<%--    </div>--%>
 </div>
 
 </body>
